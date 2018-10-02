@@ -1,0 +1,24 @@
+int var1;
+int var2;
+int var3;
+float var4;
+int var5;
+int var6;
+var1 = 200;
+var2 = 150;
+var3 = 50;
+var4 =random(0,255);
+var5 = 255;
+var6 = 0;
+size(200,200);
+
+fill(var5);
+rect(var6,var6,var1,var1);
+fill(var4);
+ellipse(var3, var3, var3, var3);
+fill(var4);
+ellipse(var3, var2, var3, var3);
+fill(var4);
+ellipse(var2, var3, var3, var3);
+fill(var4);
+ellipse(var2, var2, var3, var3);
